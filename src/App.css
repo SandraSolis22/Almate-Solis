@@ -3,46 +3,36 @@
   margin:0;
  padding:0;
 }
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .navHeader{
+    border: 3px solid #0a0a0a;
+    background-color: rgb(77, 74, 74);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3%;
 }
  .logoHeader{
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
-   color: black;
-   
+  height: 8vh; 
+  margin: 1vh; 
  }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ .logoCarrito{
+  height: 5vh;
+  margin-top: 2vh;
+ }
+.navHeader button{
+  margin-top: 3vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tituloLista{
+  font-family: fantasy;
+  margin: 5%;
+  font-size: 150%;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-item{
+  float: left;
+  width: 30%;
+  border: solid green;
+  text-align: center;
+  overflow: hidden;
 }
