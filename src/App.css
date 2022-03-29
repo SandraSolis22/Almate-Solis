@@ -31,16 +31,31 @@
   font-size: 150%;
   text-align: center;
 }
+.subtituloLista{
+  margin: 5%;
+  font-size: 120%;
+}
+.seccion{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2%;
+}
+
+
+
 .card-item{
   float: left;
-  width: 30%;
-  border: solid green;
+  width: 26%;
+  margin: 20px;
+  padding: 2%;
+  border: solid rgb(164, 167, 164);
   text-align: center;
-  overflow: hidden;
-  padding: 1%;
+  overflow: hidden 
 }
 .card-item img{
-  width: 30%;
+  width: 25%;
+  height: 10%;
   margin: 2%
 }
 
